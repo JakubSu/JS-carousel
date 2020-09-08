@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    width: 60%;
+    border: 5px solid black;
+}
+
+.content {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+}
+
+.transition {
+transition: transform 1s ease-in-out;
+
+}
